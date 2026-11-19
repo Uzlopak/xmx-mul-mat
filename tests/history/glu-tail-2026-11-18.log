@@ -1,0 +1,11 @@
+Arrow Lake-H, oneAPI 2026.2, AOT 12.74.4, LSC gathers, SLM disabled.
+The eight-column GLU prototype reached an unguarded output store in a partial tile.
+
+Device: Intel(R) Arc(TM) Graphics
+Launching q8_0 rows=17 cols=15 K=1024 glu=geglu
+FAIL: Kernel wrote to padded output columns
+
+Kernel journal after the failing comparison
+-- No entries --
+
+The rerun after bounding both block stores and scatter stores passed the same case.

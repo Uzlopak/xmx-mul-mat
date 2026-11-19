@@ -1,0 +1,55 @@
+[
+  {
+    "name": "xe2-shape-nosrc0",
+    "command": [
+      "icpx",
+      "-fsycl",
+      "-fsycl-targets=spir64_gen",
+      "-Xsycl-target-backend=spir64_gen",
+      "-device 12.74.4",
+      "-O2",
+      "-DNROWS=16",
+      "/home/aras/opt/llama-local-workflow/without-dspine/arl-dpas-probe/probe.cpp",
+      "-o",
+      "/home/aras/opt/llama-local-workflow/without-dspine/arl-dpas-probe/xe2-shape-nosrc0"
+    ],
+    "exit_code": 0,
+    "executed_on_gpu": false
+  },
+  {
+    "name": "xe2-shape-accumulator",
+    "command": [
+      "icpx",
+      "-fsycl",
+      "-fsycl-targets=spir64_gen",
+      "-Xsycl-target-backend=spir64_gen",
+      "-device 12.74.4",
+      "-O2",
+      "-DNROWS=16",
+      "-DACCUMULATOR",
+      "/home/aras/opt/llama-local-workflow/without-dspine/arl-dpas-probe/probe.cpp",
+      "-o",
+      "/home/aras/opt/llama-local-workflow/without-dspine/arl-dpas-probe/xe2-shape-accumulator"
+    ],
+    "exit_code": 0,
+    "executed_on_gpu": false
+  },
+  {
+    "name": "xe1-shape-accumulator",
+    "command": [
+      "icpx",
+      "-fsycl",
+      "-fsycl-targets=spir64_gen",
+      "-Xsycl-target-backend=spir64_gen",
+      "-device 12.74.4",
+      "-O2",
+      "-DNROWS=8",
+      "-DACCUMULATOR",
+      "/home/aras/opt/llama-local-workflow/without-dspine/arl-dpas-probe/probe.cpp",
+      "-o",
+      "/home/aras/opt/llama-local-workflow/without-dspine/arl-dpas-probe/xe1-shape-accumulator"
+    ],
+    "exit_code": 0,
+    "executed_on_gpu": false
+  }
+]

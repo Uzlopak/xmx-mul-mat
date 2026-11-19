@@ -1,0 +1,21 @@
+{
+  "exit_code": 1,
+  "active_llama_build_modified": false,
+  "status": "failed-on-first-kernel-launch",
+  "first_case": {
+    "type": "q4_K",
+    "rows": 16,
+    "columns": 1,
+    "k": 1024
+  },
+  "planned_cases": 45,
+  "completed_cases": 0,
+  "cpu_reference_comparison_completed": false,
+  "performance_comparison_completed": false,
+  "source_commit": "3bfc80f3da00ea10e8182ce707d4e3c22597a038",
+  "kernel_header_sha256": "428e90d46d1b953da2db00e93384c4fa8a7053ac9c47ca6724fe18810e4d5a5c",
+  "device": "Intel Arc 140T, intel_gpu_arl_h, IP 12.74.4",
+  "runtime_error": "UR_RESULT_ERROR_DEVICE_LOST",
+  "kernel_log": "xe compute-engine reset and timed-out job in kernel-test, 2026-11-18 12:07:55",
+  "conclusion": "The isolated upstream-kernel launch failed. Does not establish whether DPAS, 2D loads, launch parameters, the harness, or a driver issue caused it. No architecture gate changed."
+}

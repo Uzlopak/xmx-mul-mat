@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/ggml-org/llama.cpp",
+  "local_integration_commit": "3bfc80f3da00ea10e8182ce707d4e3c22597a038",
+  "kernel_origin_commit": "d81d0d8fb95e52a66992bcfc212b1891b4d2f94a",
+  "kernel_pr": "https://github.com/ggml-org/llama.cpp/pull/29864",
+  "kernel_source": "ggml/src/ggml-sycl/esimd.hpp",
+  "source_sha256": "428e90d46d1b953da2db00e93384c4fa8a7053ac9c47ca6724fe18810e4d5a5c",
+  "extracted_body_sha256": "82a17c4dd4a372440f2472c7ea56bcced41819fbae123f40107c62779799a352",
+  "cpu_reference_source": "ggml/src/ggml-quants.c",
+  "cpu_reference_functions": [
+    "get_scale_min_k4",
+    "dequantize_row_q8_0",
+    "dequantize_row_q4_K",
+    "dequantize_row_q6_K"
+  ],
+  "adaptation": "Kernel body unchanged. Standalone headers provide constants, assertions and queue_ptr without llama.cpp dependencies. CPU references use compatible local block layouts."
+}

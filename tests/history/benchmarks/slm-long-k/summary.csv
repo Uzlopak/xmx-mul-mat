@@ -1,0 +1,13 @@
+load_path,rows,columns,k,slm_work_items_per_group,without_slm_us,with_slm_us,paired_median_latency_change_percent,slm_faster_pairs,pairs,samples
+row,4096,1,1024,4,138.44,123.36,-15.77,7,9,row-4096x1-k1024.jsonl
+row,4096,16,1024,4,174.14,152.55,-7.37,8,9,row-4096x16-k1024.jsonl
+row,4096,1,4096,16,498.65,451.86,-8.68,8,9,row-4096x1-k4096.jsonl
+row,4096,16,4096,16,485.74,472.05,-7.17,7,9,row-4096x16-k4096.jsonl
+row,4096,1,16384,32,2175.42,1697.69,-23.72,9,9,row-4096x1-k16384.jsonl
+row,4096,16,16384,16,2476.45,1904.14,-23.04,9,9,row-4096x16-k16384.jsonl
+gather,4096,1,1024,4,153.16,128.95,-12.71,9,9,gather-4096x1-k1024.jsonl
+gather,4096,16,1024,4,198.24,194.26,2.02,4,9,gather-4096x16-k1024.jsonl
+gather,4096,1,4096,16,558.4,514.72,-6.28,6,9,gather-4096x1-k4096.jsonl
+gather,4096,16,4096,16,603.24,567.96,-7.65,8,9,gather-4096x16-k4096.jsonl
+gather,4096,1,16384,32,2459.49,2066.55,-14.28,9,9,gather-4096x1-k16384.jsonl
+gather,4096,16,16384,16,1757.55,1642.02,-10.81,9,9,gather-4096x16-k16384.jsonl

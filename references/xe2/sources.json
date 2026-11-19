@@ -1,0 +1,276 @@
+{
+  "downloaded_at_utc": "2026-11-18T11:57:26.273690+00:00",
+  "llvm_revision": "e4bcd3862d89195e281e71006f888b3a5510e052",
+  "igc_revision": "4dc4ced64dec7f4b67b8cc52a016c198cd3511b1",
+  "esimd_directory_files": 17,
+  "files": [
+    {
+      "path": "esimd/README.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/README.md",
+      "git_blob": "178817c6ebb24acd7b13cbf48c3b4a5bd609e622",
+      "expected_size": 5171,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 5171,
+      "sha256": "e741c597ee0b0af9471b9acf6da46fd14fe0130607b551d47fb7712afb364448",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/examples/README.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/examples/README.md",
+      "git_blob": "f30c8f63cc43d14020448856146cb30526854881",
+      "expected_size": 10422,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 10422,
+      "sha256": "1b51e819ca12ce8491868ee4bce5bb3703cb33c93935d204c71f6b92e19677f8",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/examples/bfn.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/examples/bfn.md",
+      "git_blob": "7d6a8c9bfc5e544c97f4ac0af4afcdb57fb1b0a5",
+      "expected_size": 3441,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 3441,
+      "sha256": "e58cc34a4355c480f9c9f67adaaf951a479acc3bbc67882cef1af8abbb3557ff",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/examples/dpas.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/examples/dpas.md",
+      "git_blob": "4e9e0e023d048f00dbfe9c18b922909ae4cfd349",
+      "expected_size": 9496,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 9496,
+      "sha256": "ab97eee7010f538d59787a1c8eb488ebed74b85c23904cbe49176ce8567ea1b7",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/examples/invoke_simd.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/examples/invoke_simd.md",
+      "git_blob": "d922fa39e949d3b2eaca4f1aec934cd6147a6cc2",
+      "expected_size": 2586,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 2586,
+      "sha256": "379328966cf40f0558d130b15132ab838f1b14a5c1ae55e052f0f4dae6500b9b",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/examples/invoke_simd_slm.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/examples/invoke_simd_slm.md",
+      "git_blob": "f70aea000801a37a0fa047a1bae9df0d1e6dc2c6",
+      "expected_size": 3827,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 3827,
+      "sha256": "56a1fa2d63f2e808032de145bc64dd2ed47b7a89044a7ff0bc3aca7caf1630ce",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/examples/simd_view.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/examples/simd_view.md",
+      "git_blob": "3450f8b9c042601250a96863edde29102da13af0",
+      "expected_size": 3014,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 3014,
+      "sha256": "d400f8ca4878898fed88935f8c704a2e12684c8149f37e51280739df1a2b170e",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/examples/sum_two_arrays.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/examples/sum_two_arrays.md",
+      "git_blob": "771300099354d5bb42ef93fb611e2047c66240c3",
+      "expected_size": 2697,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 2697,
+      "sha256": "1fe39524053a150a984296b4960739dfa3e2474aabe8c129ce97f4915fd7ec05",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/images/Matrix_2_2_2_4__1_2.svg",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/images/Matrix_2_2_2_4__1_2.svg",
+      "git_blob": "1e526eba415ba24e3f73eed178c15afe5992b6e1",
+      "expected_size": 11070,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 11070,
+      "sha256": "c36e9b274a3074c49d96f4cd6bd04343382deb1ecd82c71b24f530cf5fc100df",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/images/Matrix_4_1_4_2__0_0.svg",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/images/Matrix_4_1_4_2__0_0.svg",
+      "git_blob": "3adb83cf1abb6f424a25af9fd9d9057678863db6",
+      "expected_size": 11681,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 11681,
+      "sha256": "801ab98c353340c67c2f746b47d05df11cabbfec55de6e46f04f05ea33b1bd4a",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/images/VectorEven.svg",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/images/VectorEven.svg",
+      "git_blob": "c9ef9eb84c2c1b556967329418d9fd6c52d9cee2",
+      "expected_size": 4477,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 4477,
+      "sha256": "41beee50a7003e6ff72589ccf741918d240ab5e690fb9703fce86b67e0b61348",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/images/VectorOdd.svg",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/images/VectorOdd.svg",
+      "git_blob": "4c803d26a520b9a25aebccc1831c520a951eb16f",
+      "expected_size": 4465,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 4465,
+      "sha256": "8be38b69965595bbbda39dff61d737363e48e34f120ed222ad39f4bdd36abc4f",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/images/simd_view.svg",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/images/simd_view.svg",
+      "git_blob": "ad0ec618d03ed7d7cc0f4a6a3ca366d4afb33ed1",
+      "expected_size": 74565,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 74565,
+      "sha256": "29e07804eb17fbc7b1a06cedf7069a3d733134a33ad4043d2d3e26345082ac22",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/sycl_ext_intel_esimd.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/sycl_ext_intel_esimd.md",
+      "git_blob": "63c1bac9d3bfc992b6964491547e1167576c6603",
+      "expected_size": 51257,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 51257,
+      "sha256": "833c15696fdbc6597f1c7264fe482ba0b3fddff3a14634f24b4e200b5c3c0319",
+      "status": "saved"
+    },
+    {
+      "path": "esimd/sycl_ext_intel_esimd_functions.md",
+      "url": "https://raw.githubusercontent.com/intel/llvm/e4bcd3862d89195e281e71006f888b3a5510e052/sycl/doc/extensions/supported/sycl_ext_intel_esimd/sycl_ext_intel_esimd_functions.md",
+      "git_blob": "344ed2a862cf904d294779745ee0a7d89312950f",
+      "expected_size": 72896,
+      "kind": "architecture-spanning ESIMD API documentation",
+      "size": 72896,
+      "sha256": "3dd7735ace24db8857ed4626a61e445247f91bae4494fe3c26d501d871d6642c",
+      "status": "saved"
+    },
+    {
+      "path": "visa/DPAS.md",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/documentation/visa/instructions/DPAS.md",
+      "kind": "Intel compiler virtual ISA or assembler documentation",
+      "size": 13633,
+      "sha256": "79ba16ab6716e9099aaaf88875d7213c1a2581601aae8fd7e20fcd70d7737170",
+      "status": "saved"
+    },
+    {
+      "path": "visa/DPASW.md",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/documentation/visa/instructions/DPASW.md",
+      "kind": "Intel compiler virtual ISA or assembler documentation",
+      "size": 11702,
+      "sha256": "7ce2306cdead0f0ea3656b886c3076214c005eab07261a0e1bcf47bcd0259011",
+      "status": "saved"
+    },
+    {
+      "path": "visa/LSC_UNTYPED.md",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/documentation/visa/instructions/LSC_UNTYPED.md",
+      "kind": "Intel compiler virtual ISA or assembler documentation",
+      "size": 36099,
+      "sha256": "857f12058af48fc4ba3772b2f4e81dbe150b75143d5b2a24094b9f7e2d3f45f3",
+      "status": "saved"
+    },
+    {
+      "path": "visa/BARRIER.md",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/documentation/visa/instructions/BARRIER.md",
+      "kind": "Intel compiler virtual ISA or assembler documentation",
+      "size": 911,
+      "sha256": "852fe10eddf7bb43822d9e184e65d6bd9efba2369bb28ffa23d52dd398a41cfc",
+      "status": "saved"
+    },
+    {
+      "path": "visa/3_execution_model.md",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/documentation/visa/3_execution_model.md",
+      "kind": "Intel compiler virtual ISA or assembler documentation",
+      "size": 18301,
+      "sha256": "9e1ed0abd36d5962b695a2de6859519642664c710af8f2f2007747582192d8d0",
+      "status": "saved"
+    },
+    {
+      "path": "visa/5_operands.md",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/documentation/visa/5_operands.md",
+      "kind": "Intel compiler virtual ISA or assembler documentation",
+      "size": 19530,
+      "sha256": "1dd4a5fce522d149c23d4742f6b95317f1564aeeed20653c0d058d13f24fb7b8",
+      "status": "saved"
+    },
+    {
+      "path": "visa/1_introduction.md",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/documentation/visa/1_introduction.md",
+      "kind": "Intel compiler virtual ISA or assembler documentation",
+      "size": 5923,
+      "sha256": "3a634ea60f8f82ceebb51126aa83c3b8a93dd758dd66211699f5800eb34ce525",
+      "status": "saved"
+    },
+    {
+      "path": "iga/ModelXe2.hpp",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/visa/iga/IGALibrary/Models/bxml/ModelXe2.hpp",
+      "kind": "Xe2 hardware ISA model",
+      "size": 29927,
+      "sha256": "c9fe00423d3113201d78161088135fbb836f3e0e190a73ba5475976478ce4f40",
+      "status": "saved"
+    },
+    {
+      "path": "iga/IGAJSONv2.md",
+      "url": "https://raw.githubusercontent.com/intel/intel-graphics-compiler/4dc4ced64dec7f4b67b8cc52a016c198cd3511b1/visa/iga/IGAJSONv2.md",
+      "kind": "Intel compiler virtual ISA or assembler documentation",
+      "size": 11290,
+      "sha256": "20f01304637b675b2c54d3331e49dcafcde853a95da0c0cbf3fce9a3cd2ba9af",
+      "status": "saved"
+    },
+    {
+      "path": "intel/oneapi-gpu-optimization-guide-2025.2.pdf",
+      "url": "https://cdrdv2-public.intel.com/859422/oneapi_optimization-guide-gpu_2025.2-771772-859422.pdf",
+      "kind": "cross-architecture optimization guide",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "intel/prm-index.html",
+      "url": "https://www.intel.com/content/www/us/en/docs/graphics-for-linux/developer-reference/1-0/overview.html",
+      "kind": "public PRM index; not a Xe2 ISA manual",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "installed-oneapi-2026.2/esimd/xmx/dpas.hpp",
+      "source": "/opt/intel/oneapi/compiler/2026.2/include/sycl/ext/intel/esimd/xmx/dpas.hpp",
+      "kind": "installed SDK header snapshot; reference only",
+      "size": 25012,
+      "sha256": "2c05bc4c494ac89438d1959fb5039d50578eae07a36f04e6d8b670d4a1afd762",
+      "status": "saved"
+    },
+    {
+      "path": "installed-oneapi-2026.2/esimd/memory.hpp",
+      "source": "/opt/intel/oneapi/compiler/2026.2/include/sycl/ext/intel/esimd/memory.hpp",
+      "kind": "installed SDK header snapshot; reference only",
+      "size": 733660,
+      "sha256": "f88218c06286c829261dd6ff7ee31a401c41d806ba35d9345727d50611f7da73",
+      "status": "saved"
+    },
+    {
+      "path": "installed-oneapi-2026.2/esimd/simd.hpp",
+      "source": "/opt/intel/oneapi/compiler/2026.2/include/sycl/ext/intel/esimd/simd.hpp",
+      "kind": "installed SDK header snapshot; reference only",
+      "size": 7986,
+      "sha256": "cb67ffc456e3f42ba5164831b279fa54b4d84f9bd3d98bb2af5145612b91f462",
+      "status": "saved"
+    },
+    {
+      "path": "installed-oneapi-2026.2/experimental/grf_size_properties.hpp",
+      "source": "/opt/intel/oneapi/compiler/2026.2/include/sycl/ext/intel/experimental/grf_size_properties.hpp",
+      "kind": "installed SDK header snapshot; reference only",
+      "size": 4478,
+      "sha256": "d974ddadc12ee5c403506205674eb693007806fa3c1c9ae19abc29d23b534004",
+      "status": "saved"
+    }
+  ]
+}

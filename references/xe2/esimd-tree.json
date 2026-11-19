@@ -1,0 +1,146 @@
+{
+  "repository": "intel/llvm",
+  "revision": "e4bcd3862d89195e281e71006f888b3a5510e052",
+  "directory": "sycl/doc/extensions/supported/sycl_ext_intel_esimd",
+  "tree": {
+    "sha": "0a687e71dab65cfddb13f51855eaaec6013c4e99",
+    "url": "https://api.github.com/repos/intel/llvm/git/trees/0a687e71dab65cfddb13f51855eaaec6013c4e99",
+    "tree": [
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "178817c6ebb24acd7b13cbf48c3b4a5bd609e622",
+        "size": 5171,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/178817c6ebb24acd7b13cbf48c3b4a5bd609e622"
+      },
+      {
+        "path": "examples",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "26b664d2112212a0ad6a691ba0f05f17aca91afa",
+        "url": "https://api.github.com/repos/intel/llvm/git/trees/26b664d2112212a0ad6a691ba0f05f17aca91afa"
+      },
+      {
+        "path": "examples/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f30c8f63cc43d14020448856146cb30526854881",
+        "size": 10422,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/f30c8f63cc43d14020448856146cb30526854881"
+      },
+      {
+        "path": "examples/bfn.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d6a8c9bfc5e544c97f4ac0af4afcdb57fb1b0a5",
+        "size": 3441,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/7d6a8c9bfc5e544c97f4ac0af4afcdb57fb1b0a5"
+      },
+      {
+        "path": "examples/dpas.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e9e0e023d048f00dbfe9c18b922909ae4cfd349",
+        "size": 9496,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/4e9e0e023d048f00dbfe9c18b922909ae4cfd349"
+      },
+      {
+        "path": "examples/invoke_simd.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d922fa39e949d3b2eaca4f1aec934cd6147a6cc2",
+        "size": 2586,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/d922fa39e949d3b2eaca4f1aec934cd6147a6cc2"
+      },
+      {
+        "path": "examples/invoke_simd_slm.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f70aea000801a37a0fa047a1bae9df0d1e6dc2c6",
+        "size": 3827,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/f70aea000801a37a0fa047a1bae9df0d1e6dc2c6"
+      },
+      {
+        "path": "examples/simd_view.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3450f8b9c042601250a96863edde29102da13af0",
+        "size": 3014,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/3450f8b9c042601250a96863edde29102da13af0"
+      },
+      {
+        "path": "examples/sum_two_arrays.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "771300099354d5bb42ef93fb611e2047c66240c3",
+        "size": 2697,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/771300099354d5bb42ef93fb611e2047c66240c3"
+      },
+      {
+        "path": "images",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "72f4f34140252c4f85ac528d5228e45d97fc9bb5",
+        "url": "https://api.github.com/repos/intel/llvm/git/trees/72f4f34140252c4f85ac528d5228e45d97fc9bb5"
+      },
+      {
+        "path": "images/Matrix_2_2_2_4__1_2.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e526eba415ba24e3f73eed178c15afe5992b6e1",
+        "size": 11070,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/1e526eba415ba24e3f73eed178c15afe5992b6e1"
+      },
+      {
+        "path": "images/Matrix_4_1_4_2__0_0.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3adb83cf1abb6f424a25af9fd9d9057678863db6",
+        "size": 11681,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/3adb83cf1abb6f424a25af9fd9d9057678863db6"
+      },
+      {
+        "path": "images/VectorEven.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c9ef9eb84c2c1b556967329418d9fd6c52d9cee2",
+        "size": 4477,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/c9ef9eb84c2c1b556967329418d9fd6c52d9cee2"
+      },
+      {
+        "path": "images/VectorOdd.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c803d26a520b9a25aebccc1831c520a951eb16f",
+        "size": 4465,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/4c803d26a520b9a25aebccc1831c520a951eb16f"
+      },
+      {
+        "path": "images/simd_view.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad0ec618d03ed7d7cc0f4a6a3ca366d4afb33ed1",
+        "size": 74565,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/ad0ec618d03ed7d7cc0f4a6a3ca366d4afb33ed1"
+      },
+      {
+        "path": "sycl_ext_intel_esimd.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63c1bac9d3bfc992b6964491547e1167576c6603",
+        "size": 51257,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/63c1bac9d3bfc992b6964491547e1167576c6603"
+      },
+      {
+        "path": "sycl_ext_intel_esimd_functions.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "344ed2a862cf904d294779745ee0a7d89312950f",
+        "size": 72896,
+        "url": "https://api.github.com/repos/intel/llvm/git/blobs/344ed2a862cf904d294779745ee0a7d89312950f"
+      }
+    ],
+    "truncated": false
+  }
+}
